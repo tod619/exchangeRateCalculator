@@ -14,4 +14,22 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 12px;
 }
