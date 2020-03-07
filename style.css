@@ -69,3 +69,28 @@ p {
   font-size: 30px;
   text-align: right;
 }
+
+.swap-rate-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: var(--primary-color);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+selcet:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+/* Media */
+@media (max-width: 600px) {
+  .currency input {
+    width: 200px;
+  }
+}
